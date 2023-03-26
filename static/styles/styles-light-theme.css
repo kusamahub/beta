@@ -1,0 +1,264 @@
+/* Light theme styles. Support iOS, Android, iPad OS, macOS and Windows devices, which support Dynamic Theme change. */
+/* Sorted by categories and sub-categories */
+
+
+/* Global styles */
+
+
+/* Main page */
+/* ⎿ Widgets */
+
+/* Announce message */
+
+/* Kusama Price */
+
+/* Top creators */
+
+/* Top projects */
+
+/* Stats */
+
+/* News */
+
+/* Latest reviews */
+
+/* Calendar */
+
+
+
+
+/* Projects page */
+/* ⎿ Widgets */
+
+/* Projects */
+
+
+
+
+/* Creators page */
+/* ⎿ Widgets */
+
+/* Creators */
+
+
+
+
+/* Project page */
+/* ⎿ Widgets */
+
+/* Project card */
+
+/* User rating */
+
+/* Editors rating */
+
+/* Vote rating */
+
+/* Project stats */
+
+/* Analytics: Most average */
+
+/* Analytics: Price */
+
+/* Project items (NFTs) */
+
+/* Project calendar */
+
+/* Project news */
+
+/* Project reviews */
+
+/* Project creator card */
+
+/* Verify project */
+
+/* Open on... */
+
+
+
+
+/* Creator page */
+/* ⎿ Widgets */
+
+/* Creator card */
+
+/* User rating */
+
+/* Editors rating */
+
+/* Vote rating */
+
+/* Creator stats */
+
+/* Analytics: Most average */
+
+/* Analytics: Price */
+
+/* Creator projects */
+
+/* Creator calendar */
+
+/* Creator news */
+
+/* Creator reviews */
+
+/* Verify creator */
+
+/* Open on... */
+
+
+
+
+/* Calendar page */
+/* ⎿ Widgets */
+
+/* Calendar card */
+
+
+
+
+/* Tools page */
+/* ⎿ Widgets */
+
+/* Tool card */
+
+
+
+
+/* Stats page */
+/* ⎿ Widgets */
+
+/* Stats */
+
+
+
+
+/* Brand page */
+/* ⎿ Widgets */
+
+/* Brand */
+
+
+
+
+/* Wiki page */
+/* ⎿ Widgets */
+
+/* Wiki */
+
+
+
+
+/* Roadmap page */
+/* ⎿ Widgets */
+
+/* Roadmap */
+
+
+
+
+/* Tasks page */
+/* ⎿ Widgets */
+
+/* Tasks */
+
+
+
+
+/* Team page */
+/* ⎿ Widgets */
+
+/* Team */
+
+
+
+@media (prefers-color-scheme: light) {
+    body {
+        color: #141414;
+        background-color: #F5B7BD;
+        background-image: url('@/static/images/background-light.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .header {
+        /* border-bottom: 1px solid #eee; */
+        background: rgba(255, 255, 255, 0.6);
+    }
+
+    .dropdown-menu {
+        background: rgba(255, 255, 255, 0.9);
+        color: #141414;
+    }
+
+    .footer-last {
+        background: rgba(255, 255, 255, 0.8);
+        color: #141414;
+    }
+
+    .footer {
+        background: rgba(255, 255, 255, 0.6);
+    }
+
+    /* Widgets light theme */
+    .widget,
+    .app-window {
+        background: rgba(255, 255, 255, 0.6);
+        /* background: radial-gradient(circle at 100% 0, hsla(0, 0%, 100%, .85) 0, hsla(0, 0%, 96.1%, .13) 183%); */
+        border-radius: 20px;
+        color: #141414;
+    }
+
+    .app-window input,
+    textarea {
+        color: #141414;
+    }
+
+    .review-date {
+        color: #141414;
+    }
+
+    /* .widget:hover{
+        box-shadow: 17px 20px 40px rgba(0,0,0,.21);
+        /* transition: box-shadow .2s cubic-bezier(.32,.08,.24,1);
+    } */
+
+    .widget-header {
+        color: #141414;
+    }
+
+    .widget-menu-dropdown {
+        background: rgba(255, 255, 255, 0.6);
+        color: #141414;
+    }
+
+
+
+    /* Pages light theme */
+
+    .page-title {
+        color: #141414;
+    }
+
+
+    /* Footer light theme */
+
+    .footer {
+        /* border-color: #CED2D7; */
+    }
+
+    .styles-calendar .cv-header button:hover {
+        color: #141414;
+    }
+
+    .styles-calendar .cv-header button {
+        color: #141414;
+        border: 0;
+        background: 0;
+        font-size: 1.2em;
+        padding: 5px 10px;
+    }
+
+}

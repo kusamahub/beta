@@ -1,0 +1,281 @@
+/* Mobile styles. Support iOS, Android, iPad OS */
+/* Sorted by categories and sub-categories */
+
+
+/* Global styles */
+
+/* Main page */
+/* ⎿ Widgets */
+
+/* Announce message */
+
+/* Kusama Price */
+
+/* Top creators */
+
+/* Top projects */
+
+/* Stats */
+
+/* News */
+
+/* Latest reviews */
+
+/* Calendar */
+
+
+
+
+/* Projects page */
+/* ⎿ Widgets */
+
+/* Projects */
+
+
+
+
+/* Creators page */
+/* ⎿ Widgets */
+
+/* Creators */
+
+
+
+
+/* Project page */
+/* ⎿ Widgets */
+
+/* Project card */
+
+/* User rating */
+
+/* Editors rating */
+
+/* Vote rating */
+
+/* Project stats */
+
+/* Analytics: Most average */
+
+/* Analytics: Price */
+
+/* Project items (NFTs) */
+
+/* Project calendar */
+
+/* Project news */
+
+/* Project reviews */
+
+/* Project creator card */
+
+/* Verify project */
+
+/* Open on... */
+
+
+
+
+/* Creator page */
+/* ⎿ Widgets */
+
+/* Creator card */
+
+/* User rating */
+
+/* Editors rating */
+
+/* Vote rating */
+
+/* Creator stats */
+
+/* Analytics: Most average */
+
+/* Analytics: Price */
+
+/* Creator projects */
+
+/* Creator calendar */
+
+/* Creator news */
+
+/* Creator reviews */
+
+/* Verify creator */
+
+/* Open on... */
+
+
+
+
+/* Calendar page */
+/* ⎿ Widgets */
+
+/* Calendar card */
+
+
+
+
+/* Tools page */
+/* ⎿ Widgets */
+
+/* Tool card */
+
+
+
+
+/* Stats page */
+/* ⎿ Widgets */
+
+/* Stats */
+
+
+
+
+/* Brand page */
+/* ⎿ Widgets */
+
+/* Brand */
+
+
+
+
+/* Wiki page */
+/* ⎿ Widgets */
+
+/* Wiki */
+
+
+
+
+/* Roadmap page */
+/* ⎿ Widgets */
+
+/* Roadmap */
+
+
+
+
+/* Tasks page */
+/* ⎿ Widgets */
+
+/* Tasks */
+
+
+
+
+/* Team page */
+/* ⎿ Widgets */
+
+/* Team */
+
+
+
+@media (min-width: 1281px) {}
+
+@media (min-width: 1025px) and (max-width: 1280px) {}
+
+@media (min-width: 768px) and (max-width: 1024px) {}
+
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    .collection {
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    }
+
+    .styles-calendar .cv-week {
+        min-height: 4em !important;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .collection {
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    }
+
+    .team-member-card {
+        display: block;
+    }
+
+    .team-card-meta {
+        display: block;
+        margin-left: auto;
+    }
+
+    .team-card-image {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .team-grid {
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    }
+
+    .styles-calendar .cv-week {
+        min-height: 3em !important;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .header {
+        padding-top: env(safe-area-inset-top);
+    }
+
+    .footer-last {
+        padding-bottom: env(safe-area-inset-bottom);
+        padding-bottom: 20px;
+    }
+
+    .content {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .collection {
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    }
+
+    .footer {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .footer-last {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .dropdown-menu {
+        width: 100%;
+        right: 0;
+        border-radius: 0;
+    }
+
+    .team-member-card {
+        display: block;
+    }
+
+    .team-card-meta {
+        display: block;
+        margin-left: auto;
+    }
+
+    .team-card-image {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .team-grid {
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    }
+
+    .styles-calendar .cv-week {
+        min-height: 0.3em !important;
+    }
+
+}

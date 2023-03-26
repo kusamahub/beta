@@ -1,0 +1,30 @@
+{
+  "name": "kusamahub-ui",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/vite-builder": "^3.2.0",
+    "@nuxtjs/axios": "^5.13.6",
+    "@polkadot/api": "^10.0.1",
+    "@polkadot/extension-dapp": "^0.45.1",
+    "@polkadot/keyring": "^11.0.1",
+    "@polkadot/util": "^11.0.1",
+    "buffer": "^6.0.3",
+    "chart.js": "^4.2.1",
+    "pg-promise": "^11.4.3",
+    "swiper": "^9.0.5",
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6",
+    "vue-simple-calendar": "^6.3.1"
+  },
+  "devDependencies": {
+    "nuxt": "^3.2.0"
+  }
+}
