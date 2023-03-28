@@ -15,7 +15,7 @@
                         <div v-else class="team-grid">
                             <div class="team-member-card" v-for="team in teamMembers" :key="team.member_id">
                                 <div class="team-card-image">
-                                    <img src="@/static/img_placeholder.svg" />
+                                    <img :src="team.member_photo" />
                                 </div>
                                 <div class="team-card-meta">
                                     <div class="team-card-name">{{ team.member_name }}</div>
